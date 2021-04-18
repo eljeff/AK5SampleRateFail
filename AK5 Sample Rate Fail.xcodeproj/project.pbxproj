@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE1F28D9262A494700483EED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1F28D8262A494700483EED /* AppDelegate.swift */; };
+		FE1F28DB262A494700483EED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1F28DA262A494700483EED /* SceneDelegate.swift */; };
+		FE1F28DD262A494700483EED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1F28DC262A494700483EED /* ViewController.swift */; };
+		FE1F28E0262A494700483EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1F28DE262A494700483EED /* Main.storyboard */; };
+		FE1F28E3262A494700483EED /* ak5tests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE1F28E1262A494700483EED /* ak5tests.xcdatamodeld */; };
+		FE1F28E5262A494A00483EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1F28E4262A494A00483EED /* Assets.xcassets */; };
+		FE1F28E8262A494A00483EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1F28E6262A494A00483EED /* LaunchScreen.storyboard */; };
+		FE1F28F3262A494B00483EED /* ak5testsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1F28F2262A494B00483EED /* ak5testsTests.swift */; };
+		FE1F28FE262A494B00483EED /* ak5testsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1F28FD262A494B00483EED /* ak5testsUITests.swift */; };
+		FE1F291A262A4A2900483EED /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = FE1F2919262A4A2900483EED /* AudioKit */; };
+		FED7CB1D262C8FF500D32ED4 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = FED7CB1C262C8FF500D32ED4 /* Sounds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE1F28EF262A494B00483EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1F28CD262A494700483EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1F28D4262A494700483EED;
+			remoteInfo = ak5tests;
+		};
+		FE1F28FA262A494B00483EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1F28CD262A494700483EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1F28D4262A494700483EED;
+			remoteInfo = ak5tests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE1F28D5262A494700483EED /* AK5 Sample Rate Fail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AK5 Sample Rate Fail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1F28D8262A494700483EED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE1F28DA262A494700483EED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE1F28DC262A494700483EED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE1F28DF262A494700483EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE1F28E2262A494700483EED /* ak5tests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ak5tests.xcdatamodel; sourceTree = "<group>"; };
+		FE1F28E4262A494A00483EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE1F28E7262A494A00483EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE1F28E9262A494A00483EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1F28EE262A494B00483EED /* AK5 Sample Rate FailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AK5 Sample Rate FailTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1F28F2262A494B00483EED /* ak5testsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ak5testsTests.swift; sourceTree = "<group>"; };
+		FE1F28F4262A494B00483EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1F28F9262A494B00483EED /* AK5 Sample Rate FailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AK5 Sample Rate FailUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1F28FD262A494B00483EED /* ak5testsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ak5testsUITests.swift; sourceTree = "<group>"; };
+		FE1F28FF262A494B00483EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED7CB1C262C8FF500D32ED4 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE1F28D2262A494700483EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1F291A262A4A2900483EED /* AudioKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1F28EB262A494B00483EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1F28F6262A494B00483EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE1F28CC262A494700483EED = {
+			isa = PBXGroup;
+			children = (
+				FE1F28D7262A494700483EED /* ak5tests */,
+				FE1F28F1262A494B00483EED /* ak5testsTests */,
+				FE1F28FC262A494B00483EED /* ak5testsUITests */,
+				FE1F28D6262A494700483EED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE1F28D6262A494700483EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE1F28D5262A494700483EED /* AK5 Sample Rate Fail.app */,
+				FE1F28EE262A494B00483EED /* AK5 Sample Rate FailTests.xctest */,
+				FE1F28F9262A494B00483EED /* AK5 Sample Rate FailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE1F28D7262A494700483EED /* ak5tests */ = {
+			isa = PBXGroup;
+			children = (
+				FED7CB1C262C8FF500D32ED4 /* Sounds */,
+				FE1F28D8262A494700483EED /* AppDelegate.swift */,
+				FE1F28DA262A494700483EED /* SceneDelegate.swift */,
+				FE1F28DC262A494700483EED /* ViewController.swift */,
+				FE1F28DE262A494700483EED /* Main.storyboard */,
+				FE1F28E4262A494A00483EED /* Assets.xcassets */,
+				FE1F28E6262A494A00483EED /* LaunchScreen.storyboard */,
+				FE1F28E9262A494A00483EED /* Info.plist */,
+				FE1F28E1262A494700483EED /* ak5tests.xcdatamodeld */,
+			);
+			path = ak5tests;
+			sourceTree = "<group>";
+		};
+		FE1F28F1262A494B00483EED /* ak5testsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1F28F2262A494B00483EED /* ak5testsTests.swift */,
+				FE1F28F4262A494B00483EED /* Info.plist */,
+			);
+			path = ak5testsTests;
+			sourceTree = "<group>";
+		};
+		FE1F28FC262A494B00483EED /* ak5testsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1F28FD262A494B00483EED /* ak5testsUITests.swift */,
+				FE1F28FF262A494B00483EED /* Info.plist */,
+			);
+			path = ak5testsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE1F28D4262A494700483EED /* AK5 Sample Rate Fail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1F2902262A494B00483EED /* Build configuration list for PBXNativeTarget "AK5 Sample Rate Fail" */;
+			buildPhases = (
+				FE1F28D1262A494700483EED /* Sources */,
+				FE1F28D2262A494700483EED /* Frameworks */,
+				FE1F28D3262A494700483EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AK5 Sample Rate Fail";
+			packageProductDependencies = (
+				FE1F2919262A4A2900483EED /* AudioKit */,
+			);
+			productName = ak5tests;
+			productReference = FE1F28D5262A494700483EED /* AK5 Sample Rate Fail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE1F28ED262A494B00483EED /* AK5 Sample Rate FailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1F2905262A494B00483EED /* Build configuration list for PBXNativeTarget "AK5 Sample Rate FailTests" */;
+			buildPhases = (
+				FE1F28EA262A494B00483EED /* Sources */,
+				FE1F28EB262A494B00483EED /* Frameworks */,
+				FE1F28EC262A494B00483EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1F28F0262A494B00483EED /* PBXTargetDependency */,
+			);
+			name = "AK5 Sample Rate FailTests";
+			productName = ak5testsTests;
+			productReference = FE1F28EE262A494B00483EED /* AK5 Sample Rate FailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE1F28F8262A494B00483EED /* AK5 Sample Rate FailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1F2908262A494B00483EED /* Build configuration list for PBXNativeTarget "AK5 Sample Rate FailUITests" */;
+			buildPhases = (
+				FE1F28F5262A494B00483EED /* Sources */,
+				FE1F28F6262A494B00483EED /* Frameworks */,
+				FE1F28F7262A494B00483EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1F28FB262A494B00483EED /* PBXTargetDependency */,
+			);
+			name = "AK5 Sample Rate FailUITests";
+			productName = ak5testsUITests;
+			productReference = FE1F28F9262A494B00483EED /* AK5 Sample Rate FailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE1F28CD262A494700483EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FE1F28D4262A494700483EED = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FE1F28ED262A494B00483EED = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FE1F28D4262A494700483EED;
+					};
+					FE1F28F8262A494B00483EED = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FE1F28D4262A494700483EED;
+					};
+				};
+			};
+			buildConfigurationList = FE1F28D0262A494700483EED /* Build configuration list for PBXProject "AK5 Sample Rate Fail" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE1F28CC262A494700483EED;
+			packageReferences = (
+				FE1F2918262A4A2900483EED /* XCRemoteSwiftPackageReference "audiokit" */,
+			);
+			productRefGroup = FE1F28D6262A494700483EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE1F28D4262A494700483EED /* AK5 Sample Rate Fail */,
+				FE1F28ED262A494B00483EED /* AK5 Sample Rate FailTests */,
+				FE1F28F8262A494B00483EED /* AK5 Sample Rate FailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE1F28D3262A494700483EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1F28E8262A494A00483EED /* LaunchScreen.storyboard in Resources */,
+				FE1F28E5262A494A00483EED /* Assets.xcassets in Resources */,
+				FED7CB1D262C8FF500D32ED4 /* Sounds in Resources */,
+				FE1F28E0262A494700483EED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1F28EC262A494B00483EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1F28F7262A494B00483EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE1F28D1262A494700483EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1F28DD262A494700483EED /* ViewController.swift in Sources */,
+				FE1F28E3262A494700483EED /* ak5tests.xcdatamodeld in Sources */,
+				FE1F28D9262A494700483EED /* AppDelegate.swift in Sources */,
+				FE1F28DB262A494700483EED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1F28EA262A494B00483EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1F28F3262A494B00483EED /* ak5testsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1F28F5262A494B00483EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1F28FE262A494B00483EED /* ak5testsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE1F28F0262A494B00483EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1F28D4262A494700483EED /* AK5 Sample Rate Fail */;
+			targetProxy = FE1F28EF262A494B00483EED /* PBXContainerItemProxy */;
+		};
+		FE1F28FB262A494B00483EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1F28D4262A494700483EED /* AK5 Sample Rate Fail */;
+			targetProxy = FE1F28FA262A494B00483EED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE1F28DE262A494700483EED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE1F28DF262A494700483EED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE1F28E6262A494A00483EED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE1F28E7262A494A00483EED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE1F2900262A494B00483EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE1F2901262A494B00483EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE1F2903262A494B00483EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W69ZP8S5F;
+				INFOPLIST_FILE = ak5tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.audiokitpro.ak5sampleRateFail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE1F2904262A494B00483EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W69ZP8S5F;
+				INFOPLIST_FILE = ak5tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.audiokitpro.ak5sampleRateFail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE1F2906262A494B00483EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W69ZP8S5F;
+				INFOPLIST_FILE = ak5testsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.audiokitpro.ak5testsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AK5 Sample Rate Fail.app/AK5 Sample Rate Fail";
+			};
+			name = Debug;
+		};
+		FE1F2907262A494B00483EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W69ZP8S5F;
+				INFOPLIST_FILE = ak5testsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.audiokitpro.ak5testsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AK5 Sample Rate Fail.app/AK5 Sample Rate Fail";
+			};
+			name = Release;
+		};
+		FE1F2909262A494B00483EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W69ZP8S5F;
+				INFOPLIST_FILE = ak5testsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.audiokitpro.ak5testsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ak5tests;
+			};
+			name = Debug;
+		};
+		FE1F290A262A494B00483EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W69ZP8S5F;
+				INFOPLIST_FILE = ak5testsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.audiokitpro.ak5testsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ak5tests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE1F28D0262A494700483EED /* Build configuration list for PBXProject "AK5 Sample Rate Fail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1F2900262A494B00483EED /* Debug */,
+				FE1F2901262A494B00483EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1F2902262A494B00483EED /* Build configuration list for PBXNativeTarget "AK5 Sample Rate Fail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1F2903262A494B00483EED /* Debug */,
+				FE1F2904262A494B00483EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1F2905262A494B00483EED /* Build configuration list for PBXNativeTarget "AK5 Sample Rate FailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1F2906262A494B00483EED /* Debug */,
+				FE1F2907262A494B00483EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1F2908262A494B00483EED /* Build configuration list for PBXNativeTarget "AK5 Sample Rate FailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1F2909262A494B00483EED /* Debug */,
+				FE1F290A262A494B00483EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE1F2918262A4A2900483EED /* XCRemoteSwiftPackageReference "audiokit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/audiokit/audiokit";
+			requirement = {
+				branch = "v5-develop";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE1F2919262A4A2900483EED /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE1F2918262A4A2900483EED /* XCRemoteSwiftPackageReference "audiokit" */;
+			productName = AudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FE1F28E1262A494700483EED /* ak5tests.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE1F28E2262A494700483EED /* ak5tests.xcdatamodel */,
+			);
+			currentVersion = FE1F28E2262A494700483EED /* ak5tests.xcdatamodel */;
+			path = ak5tests.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE1F28CD262A494700483EED /* Project object */;
+}
