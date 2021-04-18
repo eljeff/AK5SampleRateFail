@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     private var session = AVAudioSession.sharedInstance()
 
     private var fs1 = 44_100.0
-    private var fs2 = 96_000.0
+    private var fs2 = 48_000.0
 
     @IBOutlet weak var sessionRateLabel: UILabel!
     @IBOutlet weak var settingsRateLabel: UILabel!
