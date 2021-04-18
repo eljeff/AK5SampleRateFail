@@ -165,6 +165,10 @@
                         <outlet property="engineRunningLabel" destination="9xx-zD-uIV" id="mEd-uV-3es"/>
                         <outlet property="sessionRateLabel" destination="n9z-q6-LjA" id="chr-Ck-pmf"/>
                         <outlet property="settingsRateLabel" destination="hyk-0V-WH6" id="xKx-MY-MA0"/>
+                        <outlet property="startEngineButton" destination="Oyb-nd-dPi" id="Ct7-a8-Gts"/>
+                        <outlet property="stopEngineButton" destination="1Qs-5w-1xd" id="4PV-M8-HfS"/>
+                        <outlet property="triggerOscButton" destination="E82-rg-KUE" id="QBV-Y5-gch"/>
+                        <outlet property="triggerSamplerButton" destination="elC-Hc-eFG" id="dgH-L2-WDd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

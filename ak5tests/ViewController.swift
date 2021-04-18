@@ -23,7 +23,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var sessionRateLabel: UILabel!
     @IBOutlet weak var settingsRateLabel: UILabel!
     @IBOutlet weak var engineRunningLabel: UILabel!
-    
+    @IBOutlet weak var triggerOscButton: UIButton!
+    @IBOutlet weak var triggerSamplerButton: UIButton!
+    @IBOutlet weak var startEngineButton: UIButton!
+    @IBOutlet weak var stopEngineButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupSampler()
@@ -37,9 +41,14 @@ class ViewController: UIViewController {
 
     private func updateRateLabels(sessionSampleRate: Double, settingsSampleRate: Double) {
         DispatchQueue.main.async {[weak self] in
+            let isRunning = self?.engine.avEngine.isRunning ?? false
             self?.sessionRateLabel.text = "\(sessionSampleRate)"
             self?.settingsRateLabel.text = "\(settingsSampleRate)"
             self?.engineRunningLabel.text = "\(self?.engine.avEngine.isRunning ?? false)"
+            self?.triggerOscButton.isEnabled = isRunning
+            self?.triggerSamplerButton.isEnabled = isRunning
+            self?.startEngineButton.isEnabled = !isRunning
+            self?.stopEngineButton.isEnabled = isRunning
         }
     }
     @IBAction func startEnginTapped(_ sender: UIButton) {
